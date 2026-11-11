@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+}
+
+
+h1 { 
+    color: #4676a9;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+h2{
+    color: #cb731c;
+}
+
+
+footer{
+    text-align: center;
+    color: #cbd3dc;
+    background-color: #23466c;
+}
