@@ -3,40 +3,58 @@
     <head><title>Bouldering</title></head>
 
     <body>
+        <head>
+            <title>My first website!</title>
+            <link href="css/style.css" rel="stylesheet"> 
+            <!--link the css file to html -->
+        </head>
+
         <header>
-            <!--This is where the logo is-->
+            <img src="images/logo.svg" alt="The boulder logo">
+            <div class="simple-menu">
+                <p><strong>
+                    <a href="https://www.youtube.com/watch?v=6yp8fEU00aM&list=RD6yp8fEU00aM&start_radio=1">Home</a>
+                    <a href="https://www.youtube.com/watch?v=6yp8fEU00aM&list=RD6yp8fEU00aM&start_radio=1">Getting started</a>
+                </strong></p>
+            </div>
         </header>
 
         <main>
-            <h1>Getting started with Bouldering</h1>
 
-            <section>
-                <h2>How to get started</h2>
+            <h1 class="pg2header">Getting started with <span class='bouldering'>Bouldering </span></h1>
+
+            <section class="pg2h2">
+                <h2 class="h2der">How to get started</h2>
 
                 <p>Unlike many outdoor sports, getting started with bouldering is surprisingly simple. All you need are some climbing shoes, chalk, and a positive attitude—most gyms even rent the equipment for your first sessions.<strong> No prior experience or complex gear required!</strong></p>
             </section>
 
-            <section>
-                <img src="images\simple-steps.jpg" alt="a female climbing">
-                <h2>Know Before You Go</h2>
+            <section class="image-container">
+                <div class="image-wrapper">
+                    <img src="images/simple-steps.jpg" alt="a female climbing">
+                    <div class="overlay-text">
+                        <h3>Know Before You Go</h3>
+                        <p>
+                            Before you start climbing, learn proper falling technique and always check your landing zone. Taking basic safety precautions and learning gym etiquette will help ensure a fun and injury-free experience.
+                        </p>
+                    </div>
+                </div>
 
-                <p>
-                    Before you start climbing, learn proper falling technique and always check your landing zone. Taking basic safety precautions and learning gym etiquette will help ensure a fun and injury-free experience.
-                </p>
-
+                <div class="ordered-list">
+                    <h3>The simple steps to getting started</h3>
+                    <ol>
+                        <li>Find a bouldering gym near you.</li>
+                        <li>Rent or invest in a pair of climbing shoes</li>
+                        <li>Learn basic bouldering techniques.</li>
+                        <li>Start with easy routes and gradually increase difficulty.</li>
+                        <li>Join a bouldering community or club.</li>
+                    </ol>
+                </div>
             </section>
 
-            <section>
-                <h3>The simple steps to getting started</h3>
-                <ol>
-                    <li>Find a bouldering gym near you.</li>
-                    <li>Rent or invest in a pair of climbing shoes</li>
-                    <li>Learn basic bouldering techniques.</li>
-                    <li>Start with easy routes and gradually increase difficulty.</li>
-                    <li>Join a bouldering community or club.</li>
-                </ol>
-            </section>
-            <img src="images\getting-started-outdoors.jpg" alt="A man hanging">
+
+
+            <img src="images/getting-started-outdoors.jpg" alt="A man hanging" class="a-man-climbing">
 
         </main>
     </body>
